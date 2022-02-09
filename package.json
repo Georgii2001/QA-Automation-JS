@@ -1,0 +1,23 @@
+{
+  "name": "jsautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@wdio/cli": "^7.5.1",
+    "chai": "^4.3.4"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.5.1",
+    "@wdio/mocha-framework": "^7.4.6",
+    "@wdio/spec-reporter": "^7.4.3",
+    "chromedriver": "^90.0.0",
+    "mocha": "^8.3.2",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
